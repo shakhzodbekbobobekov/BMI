@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculate Your Body Mass Index</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="icon" href="img/bmi.png">
+  <link rel="stylesheet" href="main.css">
+</head>
+<body> 
+   <div class="whitedrop"></div>
+  <div class="contianer">
+    <form class="row g-3 border" >
+      <h3>Calculate Your Body Mass Index <img class="bmi-jpg" src="img/bmi.png" alt=""></h3>
+      <div class="col-md-4">
+        <label class="nameEl">Name</label>
+        <input type="text" class="form-control" id="nameEl" placeholder="Shaxzodbek"  required>
+      </div>
+      <div class="col-md-4">
+        <label class="weightEl">Weight</label>
+        <input type="number"  class="form-control" id="weightEl"  placeholder="70"  required>
+      </div> 
+      <div class="col-md-4">
+        <label class="heightEl">Height</label>
+        <input type="number" class="form-control" id="heightEl"  placeholder="1.75"  required>
+      </div> 
+      <div class="button">
+        <button id="btnEl" class="button-in" type="submit">The Result</button>
+      </div>
+    </form>
+  </div>
+
+
+  <div class="thin">
+    <div class="thin-content">
+      <h1 class="thin__text">
+        <p id="ismKeladi1"></p>
+        sizning BMI natijangiz. Siz juda ozg'insiz
+      </h1>
+      <img class="thin__img" src="img/ozgin.jpg" alt="">
+    </div>
+  </div>
+
+  <div class="normal">
+    <div class="normal-content">
+      <h1 class="normal__text">
+        <p id="ismKeladi2"> </p>
+        sizning BMI natijangiz. Siz normal holatdasiz.
+      </h1>
+      <img class="normal__img" src="img/normal.jpg" alt="">
+    </div>
+  </div>
+
+  <div class="fat">
+    <div class="fat-content">
+      <h1 class="fat__text">
+        <p id="ismKeladi3"> </p>
+        sizning BMI natijangiz. Sizda ortiqcha vazn bor.
+      </h1>
+      <img class="fat__img" src="img/semiz.jpg" alt="">
+    </div>
+  </div>
+
+  <div class="fat-very">
+    <div class="fat-very__content">
+      <h1 class="fat-very__text">
+        <p id="ismKeladi4"> </p>
+        sizning BMI natijangiz. Siz o'ta semiz.
+      </h1>
+      <img class="fat-very__img" src="img/very-fat.jpg" alt="">
+    </div>
+  </div>
+ 
+  <script src="app.js"></script>
+</body>
+</html>
