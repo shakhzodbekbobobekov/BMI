@@ -1,2 +1,2 @@
 # BMI
-HTML CSS JavaScript asososida qilingan ilk saytim !
+HTML CSS JavaScript asososida qilingan ilk responsive saytim !
